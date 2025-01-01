@@ -1,0 +1,79 @@
+[debug] [2025-01-01T04:21:21.059Z] ----------------------------------------------------------------------
+[debug] [2025-01-01T04:21:21.060Z] Command:       /opt/homebrew/Cellar/node/22.6.0/bin/node /opt/homebrew/bin/firebase init hosting
+[debug] [2025-01-01T04:21:21.061Z] CLI Version:   13.29.1
+[debug] [2025-01-01T04:21:21.061Z] Platform:      darwin
+[debug] [2025-01-01T04:21:21.061Z] Node Version:  v22.6.0
+[debug] [2025-01-01T04:21:21.061Z] Time:          Tue Dec 31 2024 22:21:21 GMT-0600 (Central Standard Time)
+[debug] [2025-01-01T04:21:21.061Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-01T04:21:21.064Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-01T04:21:21.064Z] > authorizing via signed-in user (marques.q.webster@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/groovyq/Documents/Projects/Github/memento
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-01T04:21:48.456Z] Checked if tokens are valid: true, expires at: 1735708725090
+[debug] [2025-01-01T04:21:48.456Z] Checked if tokens are valid: true, expires at: 1735708725090
+[debug] [2025-01-01T04:21:48.458Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-01T04:21:48.657Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-01T04:21:48.657Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project memento-4f4a2 (Memento) 
+[info] 
+=== Hosting Setup
+[debug] [2025-01-01T04:21:50.302Z] Checked if tokens are valid: true, expires at: 1735708725090
+[debug] [2025-01-01T04:21:50.302Z] Checked if tokens are valid: true, expires at: 1735708725090
+[debug] [2025-01-01T04:21:50.302Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/memento-4f4a2 [none]
+[debug] [2025-01-01T04:21:50.405Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/memento-4f4a2 200
+[debug] [2025-01-01T04:21:50.405Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/memento-4f4a2 {"projectId":"memento-4f4a2","projectNumber":"159192020367","displayName":"Memento","name":"projects/memento-4f4a2","resources":{"hostingSite":"memento-4f4a2"},"state":"ACTIVE","etag":"1_897cc4a1-4be4-4b22-8e1f-ee9c62278b46"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote build/404.html 
+[debug] [2025-01-01T04:22:43.012Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-01-01T04:22:43.103Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-01-01T04:22:43.103Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.1.0","browserURL":"https://www.gstatic.com/firebasejs/11.1.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.1.0/firebase.tgz"},"live":{"version":"11.1","browserURL":"https://www.gstatic.com/firebasejs/live/11.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.1/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.1.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.1.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.1.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.1.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.1.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.1.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.1.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.1.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.1.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.1.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.1.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.1.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.1.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.1.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.1.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/groovyq/Documents/Projects/Github/memento 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=137892122&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-01-01T04:22:45.698Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-01-01T04:22:45.698Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-01-01T04:22:45.900Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-01-01T04:22:45.900Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-01-01T04:22:45.904Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-01-01T04:22:46.112Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-01-01T04:22:46.113Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"mqwebster","id":100445055,"node_id":"U_kgDOBfyrfw","avatar_url":"https://avatars.githubusercontent.com/u/100445055?v=4","gravatar_id":"","url":"https://api.github.com/users/mqwebster","html_url":"https://github.com/mqwebster","followers_url":"https://api.github.com/users/mqwebster/followers","following_url":"https://api.github.com/users/mqwebster/following{/other_user}","gists_url":"https://api.github.com/users/mqwebster/gists{/gist_id}","starred_url":"https://api.github.com/users/mqwebster/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mqwebster/subscriptions","organizations_url":"https://api.github.com/users/mqwebster/orgs","repos_url":"https://api.github.com/users/mqwebster/repos","events_url":"https://api.github.com/users/mqwebster/events{/privacy}","received_events_url":"https://api.github.com/users/mqwebster/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Marques Webster","company":null,"blog":"https://mqwebster.vercel.app","location":null,"email":"marques.q.webster@gmail.com","hireable":true,"bio":"I'm a fresh face 👶🏽 with an old soul 👴🏽, and I'm always looking to learn. As a Frontend Engineer and Designer, I love to build cool projects 👨🏽‍💻.","twitter_username":null,"notification_email":"marques.q.webster@gmail.com","public_repos":12,"public_gists":0,"followers":9,"following":3,"created_at":"2022-02-25T20:43:44Z","updated_at":"2024-08-21T02:24:32Z","private_gists":1,"total_private_repos":8,"owned_private_repos":8,"disk_usage":50780,"collaborators":1,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as mqwebster 
+[info] 
+[debug] [2025-01-01T04:23:03.002Z] >>> [apiv2][query] GET https://api.github.com/repos/mqwebster/memento/actions/secrets/public-key type=owner
+[debug] [2025-01-01T04:23:03.130Z] <<< [apiv2][status] GET https://api.github.com/repos/mqwebster/memento/actions/secrets/public-key 404
+[debug] [2025-01-01T04:23:03.130Z] <<< [apiv2][body] GET https://api.github.com/repos/mqwebster/memento/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] ⚠  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
